@@ -1,0 +1,43 @@
+body{
+    background: url(wall.jpg)  center center fixed;
+    -webkit-backgroundsize: cover;
+    -moz-background-size: cover;
+    -o-backgroung-size: cover;
+    background-size: cover;
+}
+#nav{
+    color: white;
+    width: 350px;
+    font-size: 35px;
+    height: 221px;
+    padding-top: 0px;
+    margin: 0 auto;
+    border-radius: 10px;
+    opacity: 8;
+    background: rgba(52, 73, 94, 0.7);
+    margin-top: 112px;
+    
+}
+
+#nav input{
+    margin-top: 30px;
+    padding-top: 0px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 5px;
+    width: 270px;
+}
+
+#nav input[name="return"]{
+    align-content: center;
+    font-weight: bold;
+    margin-left: 70px;
+    width: 100px;
+}
+
+#nav input[name="remove"]{
+    align-content: center;
+    font-weight: bold;
+    margin-left: 70px;
+    width: 120px;
+}
